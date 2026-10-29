@@ -15,11 +15,14 @@ the first few posts.
 - **What I do, in one sentence:** I'm a data engineering graduate from
   Hyderabad who builds data pipelines and ML projects with Python, SQL and
   PySpark, and I'm starting my career in data.
-- **Who I am writing for:** recruiters and hiring managers for entry-level
-  data engineering and data science roles in India, plus final-year CS and
-  data science students a year or two behind me.
+- **Who I am writing for:** recruiters and hiring managers for data
+  engineering and data science roles, startup founders who need someone to
+  build their data pipelines or AI features, and like-minded builders who
+  might want to collaborate on a project.
 - **What I sell:** myself, for now. The goal is a data engineering, data
-  science or ML role, and a profile that shows I can do the work.
+  science or ML role, freelance or startup work, and collaborations. Every
+  post should make it easy for one of those people to think "I should message
+  him", without begging for it.
 
 ## What I sound like
 
