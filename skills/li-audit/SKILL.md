@@ -22,7 +22,8 @@ Ask for whichever the user has:
 - Or just the posts and their reaction counts, which is enough for a first
   pass.
 
-Also read `~/.claude/linkedin/log.md` if it exists, since it records which
+Also read `linkedin/log.md` at the repo root (`~/.claude/linkedin/log.md`
+outside a repo) if it exists, since it records which
 hook formula each post used.
 
 ## What to actually measure

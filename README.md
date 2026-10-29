@@ -17,7 +17,13 @@ before you ever see it.
 
 ## Install
 
-Paste this into Claude:
+**No install: Claude Code on the web.** Start a session at
+[claude.ai/code](https://claude.ai/code) on this repository. The skills load
+from `.claude/skills/`, which links to `skills/`, so `/li-post` and the rest
+work straight away. Your voice profile, post log and weekly plan are kept in
+[`linkedin/`](linkedin/) and committed back to the repo.
+
+To install on your own machine instead, paste this into Claude:
 
 ```
 https://github.com/SrigadaAkshayKumar/linkedin-agent-skill
@@ -44,10 +50,11 @@ Project-local instead of global: copy the same folders into your repo's
 top of a chat and it runs as a mode - you lose the two Python tools, which is
 most of the point of `/li-human`, but the rest works.
 
-Then spend ten minutes on `templates/voice.md`. Copy it to
-`~/.claude/linkedin/voice.md` and fill it in, or paste three of your own posts
-into Claude and say "write my voice.md from these". Every skill reads that
-file. Skip it and everything comes out sounding like everyone else.
+Then spend ten minutes on your voice profile. In a web session, fill in
+[`linkedin/voice.md`](linkedin/voice.md). On a local install, copy
+`templates/voice.md` to `~/.claude/linkedin/voice.md` and fill it in, or paste
+three of your own posts into Claude and say "write my voice.md from these".
+Every skill reads that file. Skip it and everything comes out sounding like everyone else.
 
 ## The eleven
 
