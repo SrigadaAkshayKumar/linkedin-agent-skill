@@ -16,7 +16,12 @@ posted it.
 
 ## Before you write
 
-1. Read `~/.claude/linkedin/voice.md` if it exists. That file is the user's
+Data files (`voice.md`, `log.md`, `plan.md`) live in `linkedin/` at the root
+of the user's repository. Outside a repository, fall back to
+`~/.claude/linkedin/`. Commit and push any file you change there, or it is
+lost when the session ends.
+
+1. Read `linkedin/voice.md` if it exists. That file is the user's
    voice profile: how they talk, what they never say, who they are talking to.
    If it does not exist, ask for **three of their own past posts**, infer the
    voice from those, and write the file. Do not skip this and do not invent a
@@ -71,7 +76,7 @@ Reply "yes" to log it, or tell me what to change.
 ```
 
 **5. Never publish.** This skill produces text. The user posts it. On "yes",
-append the post to `~/.claude/linkedin/log.md` with the date, the hook used
+append the post to `linkedin/log.md` with the date, the hook used
 and the first line, so `/li-audit` has a history to work from later.
 
 ## Rules that make the difference

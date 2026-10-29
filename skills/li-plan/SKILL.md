@@ -14,7 +14,12 @@ gets executed. Run it once a week, on the same day.
 
 ## Input
 
-If `~/.claude/linkedin/voice.md` and `log.md` exist, read them - the plan
+Data files (`voice.md`, `log.md`, `plan.md`) live in `linkedin/` at the root
+of the user's repository. Outside a repository, fall back to
+`~/.claude/linkedin/`. Commit and push any file you change there, or it is
+lost when the session ends.
+
+If `linkedin/voice.md` and `log.md` exist, read them - the plan
 should not repeat a theme from the last fortnight. If they do not exist, ask
 for four things and write them down:
 
@@ -90,5 +95,5 @@ ENGAGE  (5 reach / 3 peers / 2 buyers)
 Say "write Tuesday" and I will draft it.
 ```
 
-Write the plan to `~/.claude/linkedin/plan.md` so the other skills can read it.
+Write the plan to `linkedin/plan.md` so the other skills can read it.
 Nothing is scheduled or posted anywhere - this is a plan, and the user runs it.
