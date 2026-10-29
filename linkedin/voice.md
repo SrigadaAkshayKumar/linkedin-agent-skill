@@ -114,7 +114,9 @@ Every draft:
 - Goes through the li-human humanizer until it says PASS.
 - Comes with an image prompt only when an image would help the post. The
   prompt is for a diffusion model: no text, letters, logos or real faces in
-  the image, portrait 4:5 (1080x1350), plus a short negative prompt.
+  the image, plus a short negative prompt. The size goes inside the prompt
+  text itself, ending with "portrait orientation, 4:5 aspect ratio,
+  1080x1350 pixels", so it carries over when the prompt is pasted.
 
 ## Hashtags
 
