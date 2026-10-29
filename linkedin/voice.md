@@ -12,9 +12,9 @@ the first few posts.
 ## Who I am
 
 - **Name:** Akshay Kumar Srigada
-- **What I do, in one sentence:** I'm a data engineering graduate from
-  Hyderabad who builds data pipelines and ML projects with Python, SQL and
-  PySpark, and I'm starting my career in data.
+- **What I do, in one sentence:** I'm a fresher in IT. I finished my B.Tech
+  (CSE, Data Science) in Hyderabad in 2026 and I'm starting my career in data
+  engineering, learning and building with Python, SQL and PySpark.
 - **Who I am writing for:** recruiters and hiring managers for data
   engineering and data science roles, startup founders who need someone to
   build their data pipelines or AI features, and like-minded builders who
@@ -26,12 +26,22 @@ the first few posts.
 
 ## What I sound like
 
+**I am a fresher, and every post must sound like one.** A curious, honest
+person at the start of their career talking to people, not an expert or a
+senior engineer giving lessons. Simple everyday words, short sentences, a bit
+of honest feeling (nervous, curious, excited to try something) where it fits.
+I share what I'm learning and what I think. I don't lecture, I don't stack
+jargon or specs, and I don't pretend to have all the answers. "I don't have
+the answer" is fine. No corporate tone.
+
 - **Three of my own posts that sound most like me:** none yet. Update this
   section after the first three posts go out.
 - **Words I actually use:** pipeline, ETL, PySpark, SQL, feature engineering,
   dataset, built, shipped, learned, broke, fixed *(inferred)*
 - **Words I would never use:** "thrilled to announce", "humbled", "journey",
-  "passionate about data", "excited to share", "aspiring" *(inferred)*
+  "passionate about data", "excited to share", "aspiring", and labels like
+  "My take:", "My opinion:" or "Hot take:". My opinion goes inside the
+  sentence, the way I'd say it out loud.
 - **Sentence length:** mixed: short lines for the point, one longer line for
   the detail *(inferred)*
 - **Do I swear:** no
@@ -85,3 +95,23 @@ with `{{your number}}` in it.
 - B.Tech, Computer Science Engineering (Data Science), Malla Reddy Engineering
   College, 2022 - 2026.
 - Portfolio: akshayportfolio.onrender.com
+
+## How I get my posts
+
+Most days I give Claude a topic and the format I want (text post, carousel,
+news reaction and so on). If I don't give a topic, Claude suggests 3 ideas
+(today's big tech news first, if there is any) and I pick one.
+
+Every draft:
+
+- Uses the li-post method: 3 hook options from `skills/li-post/hooks.json`,
+  each labelled with its formula, then one full draft from the best one.
+- Is ready to post. No `{{placeholders}}` or brackets for me to fill in. If a
+  line would need a personal detail Claude doesn't have, it rewrites the line
+  so it doesn't need one, or uses only facts from this file.
+- Ends with a warm, natural question that invites both freshers and
+  experienced people to reply. Never "open to work" lines.
+- Goes through the li-human humanizer until it says PASS.
+- Comes with an image prompt only when an image would help the post. The
+  prompt is for a diffusion model: no text, letters, logos or real faces in
+  the image, portrait 4:5 (1080x1350), plus a short negative prompt.
