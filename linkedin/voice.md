@@ -115,3 +115,21 @@ Every draft:
 - Comes with an image prompt only when an image would help the post. The
   prompt is for a diffusion model: no text, letters, logos or real faces in
   the image, portrait 4:5 (1080x1350), plus a short negative prompt.
+
+## Hashtags
+
+Use 3 or 4 per post, at the bottom: 1 broad tag for reach, 1-2 tags for the
+topic, and 1 tag for my community. Never 5 or more; LinkedIn treats a wall of
+tags as spam, and li-human flags it. Pick from this list; only add a tag that
+is a real topic people follow.
+
+- **Community (pick 1):** #Freshers, #FresherJobs, #EarlyCareer, #CampusToCorporate
+- **Job search / career:** #JobSearch, #CareerAdvice, #Hiring, #TechJobs, #TechLayoffs, #Layoffs
+- **AI news and opinions:** #ArtificialIntelligence, #AI, #GenerativeAI, #FutureOfWork
+- **Data engineering / learning:** #DataEngineering, #DataScience, #Python, #SQL, #PySpark, #ETL, #BigData, #LearningInPublic
+- **Open source / projects:** #OpenSource, #GSSoC, #BuildInPublic
+
+Reach matters more from the words than the tags: LinkedIn search reads the
+post text, so put the main keywords (fresher, AI, data engineering, jobs) in
+the first two lines. Keep links out of the post body; put source links in the
+first comment.
