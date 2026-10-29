@@ -113,10 +113,15 @@ Every draft:
   experienced people to reply. Never "open to work" lines.
 - Goes through the li-human humanizer until it says PASS.
 - Comes with an image prompt only when an image would help the post. The
-  prompt is for a diffusion model: no text, letters, logos or real faces in
-  the image, plus a short negative prompt. The size goes inside the prompt
-  text itself, ending with "portrait orientation, 4:5 aspect ratio,
-  1080x1350 pixels", so it carries over when the prompt is pasted.
+  prompt is for a diffusion model, plus a negative prompt. The image must
+  look like a real, ordinary photo someone took on a phone, not AI art: a
+  candid everyday scene, natural daylight or a plain room light, true-to-life
+  colours, slight grain, small imperfections. No glowing holograms, neon,
+  "cinematic", "epic", "volumetric", 3D render or illustration styles. No
+  text, letters, logos or real faces. The size goes inside the prompt text
+  itself, ending with "landscape orientation, 4:3 aspect ratio, 1200x900
+  pixels". The negative prompt always bans the AI look (CGI, 3D render,
+  illustration, glossy, oversaturated, HDR, neon glow, plastic skin).
 
 ## Hashtags
 
